@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CalendarBaseViewController.h"
-@interface MonthViewController : CalendarBaseViewController
+@interface MonthViewController : UIViewController
 
-@property (nonatomic) NSMutableArray *daysSource;//放的daymodel数组
-@property (nonatomic,assign) NSInteger currentIndex;
 
 
 @end
