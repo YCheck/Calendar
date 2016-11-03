@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/YCheck/Calendar'
   s.license          = {:type => 'MIT'}  
   s.authors          = { 'NULL' => '864390553@qq.com' }  
-  s.source           = { :git => 'https://github.com/YCheck/Calendar.git', :tag => 'v1.0.0.0' }
-  s.source_files = 'calendar/*.{h,m}' 
+  s.source           = { :git => 'https://github.com/YCheck/Calendar.git', :tag => '1.0.0.0' }
+  s.source_files = 'calendar/*' 
   s.framework        = 'SystemConfiguration'
   s.ios.framework    = 'UIKit' 
 end
