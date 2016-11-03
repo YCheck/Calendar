@@ -10,9 +10,6 @@
 
 
 @interface MonthViewController ()
-{
-}
-
 
 @end
 
@@ -20,6 +17,7 @@
 
 
 - (void)viewDidLoad {
+    
 }
 
 
